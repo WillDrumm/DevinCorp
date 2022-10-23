@@ -85,7 +85,7 @@ export default function NovoProduto() {
                 required
                 type="text"
                 class="form-control"
-                id="custoUnitario"
+                id="Custounitario"
                 value={produto.custoUnitario}
                 onChange={(e) =>
                   setProduto({ ...produto, custoUnitario: e.target.value })
@@ -98,7 +98,7 @@ export default function NovoProduto() {
               </label>
               <textarea
                 class="form-control"
-                id="form-control"
+                id="descricao"
                 value={produto.descricao}
                 onChange={(e) =>
                   setProduto({ ...produto, descricao: e.target.value })
@@ -131,7 +131,7 @@ export default function NovoProduto() {
               <select
                 required
                 class="form-control"
-                id="inputCity"
+                id="grupo"
                 value={produto.grupo}
                 onChange={(e) =>
                   setProduto({ ...produto, grupo: e.target.value })

@@ -99,7 +99,7 @@ export default function CadastroEmpresa() {
               required
               type="text"
               class="form-control"
-              id="inputEmail4"
+              id="razasocial"
               value={empresa.razaoSocial}
               onChange={(e) =>
                 setEmpresa({ ...empresa, razaoSocial: e.target.value })
@@ -114,7 +114,7 @@ export default function CadastroEmpresa() {
               required
               type="text"
               class="form-control"
-              id="inputPassword4"
+              id="nomefantasia"
               value={empresa.nomeFantasia}
               onChange={(e) =>
                 setEmpresa({ ...empresa, nomeFantasia: e.target.value })

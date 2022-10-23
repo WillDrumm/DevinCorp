@@ -1,7 +1,5 @@
 import { Navigate, useNavigate } from "react-router-dom";
-import Navibar from "../Components/Navibar";
 import "../Pages/Correcao.css";
-import foguete from "../Images/foguete.jpg";
 import logoCorp from "../Images/CORP.png";
 
 export default function LoginPage() {
@@ -29,9 +27,7 @@ export default function LoginPage() {
               aria-describedby="emailHelp"
               placeholder="Digite seu E-Mail"
             />
-            <div id="emailHelp" class="form-text">
-              Nunca compartilhe sua senha com mais ninguém.
-            </div>
+            <div id="emailHelp" class="form-text"></div>
           </div>
           <div class="order-2 p-2 bd-highlight">
             <label for="exampleInputPassword1" class="form-label">
@@ -44,6 +40,7 @@ export default function LoginPage() {
               id="exampleInputPassword1"
               placeholder="Digite sua senha"
             />
+            <div>Nunca compartilhe sua senha com mais ninguém.</div>
           </div>
           <div class="mb-3 form-check">
             <input
