@@ -1,0 +1,26 @@
+.leaflet-container{
+    width: 80vw;
+height: 80vh;
+margin-top: 20px;
+}
+.botoes{
+    display: flex;
+    gap:10px;
+}
+.formContainer{
+    width: 700px;
+}
+.formBox{
+display: flex;
+margin-left: 600px;
+}
+.prodButtons{
+    display: flex;
+    gap:6px
+}
+.FormProdContainer{
+    width: 1000px;
+    margin-top: 60px;
+    border: solid 2px gray;
+    padding: 20px;
+}
